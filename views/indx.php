@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
-    <title>To do List | w ramach studiuje IT</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <header>
-        <div class="header-img">
-            <img src=".\images\logo.jpg" alt="">
-        </div>
-        <nav class="nav">
-            <ul>
-                <li><a class="link active" href=".\index.html">Start</a></li>
-                <li><a class="link" href=".\list.html">Wyświetl listę</a></li>
-                <li><a class="link" href=".\add.html">Dodaj zadanie</a></li>                
-            </ul>
-        </nav>
-    </header>
-    <main class="article-list">
+<main class="article-list">
         <article class="article article-main">
             <h1>Lorem ipsum</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima recusandae iusto consectetur vero maxime. Sit ipsa deserunt vel quibusdam maiores suscipit nihil, hic, accusamus maxime et atque ipsum ipsam.</p>
@@ -35,8 +12,4 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima recusandae iusto consectetur vero maxime. Sit ipsa deserunt vel quibusdam maiores suscipit nihil, hic, accusamus maxime et atque ipsum ipsam.</p>
         </article>
     
-    </main>
-    <footer>Ucze się gita, utrwalam HTML5, CSS i PHP i musze to wykonać bo robie ścieżkę na Studiuje.IT</footer>
-    <script src="script.js"></script>
-</body>
-</html>
+</main>

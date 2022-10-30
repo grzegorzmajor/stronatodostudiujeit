@@ -15,19 +15,16 @@
         </div>
         <nav class="nav">
             <ul>
-                <li><a class="link" href=".\index.html">Start</a></li>
-                <li><a class="link" href=".\list.html">Wyświetl listę</a></li>
-                <li><a class="link active" href=".\add.html">Dodaj zadanie</a></li>                
+                <li><a class="link <?php if($this->action=="indx") echo 'active' ?>" href="/">Start</a></li>
+                <li><a class="link <?php if($this->action=="list") echo 'active' ?>" href="/?action=list">Wyświetl listę</a></li>
+                <li><a class="link <?php if($this->action=="add") echo 'active' ?>" href="/?action=add">Dodaj zadanie</a></li>                
             </ul>
         </nav>
     </header>
-    <main>
-        <form class="form_new_task" action="">
-            <label>Nazwa zadania<br></label><input type="text"><br>
-            <label>Opis zadania<br></label><textarea></textarea><br>                        
-            <button type="submit">DODAJ</button>
-        </form>
-    </main>
+    <?php 
+        require_once APP_DIR .'/../views/'.$tmplt.'.php';
+    ?>
+    
     <footer>Ucze się gita, utrwalam HTML5, CSS i PHP i musze to wykonać bo robie ścieżkę na Studiuje.IT</footer>
     <script src="script.js"></script>
 </body>
